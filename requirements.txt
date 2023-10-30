@@ -1,0 +1,6 @@
+streamlit
+langchain
+openai
+beautifulsoup4
+chromium-python
+playwright
