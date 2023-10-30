@@ -6,6 +6,7 @@ from langchain.indexes import VectorstoreIndexCreator
 import os
 import re
 os.system("playwright install")
+os.system("playwright install-deps")
 
 st.title("Web Scraper and Text Search App")
 
