@@ -4,3 +4,4 @@ openai
 beautifulsoup4
 playwright
 chromadb
+sqlite3
