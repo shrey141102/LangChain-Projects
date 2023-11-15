@@ -1,6 +1,5 @@
 from utils import  memory_query, starter_code, choose_llm, choose_embeddings
 import os
-# from apikey import HUGGINGFACE_API,GOOGLE_PALM_API_KEY,OPENAI_API
 import streamlit as st
 
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'  # or 'false' as needed
