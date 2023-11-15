@@ -10,3 +10,4 @@ beautifulsoup4
 playwright
 sentence_transformers
 tiktoken
+python>=3.10
