@@ -31,7 +31,7 @@ full_data = []
 link_pattern = r'(https?://\S+)'
 links = []
 file_name = "data.txt"
-exclude_domains = ['facebook.com', 'instagram.com', 'linkedin.com', 'github.com', 'youtube.com']
+exclude_domains = ['facebook.com', 'instagram.com', 'linkedin.com', 'github.com', 'youtube.com', 'twitter.com']
 
 # if base_url[-1] == '/':
 #     base_url = base_url[:-1]
