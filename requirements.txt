@@ -1,7 +1,12 @@
 streamlit
 langchain
+pypdf2
 openai
+faiss-cpu
+chromadb
+google-generativeai
+huggingface-hub
 beautifulsoup4
 playwright
-chromadb
-sqlite3
+sentence_transformers
+tiktoken
