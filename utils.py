@@ -86,23 +86,21 @@ def extract_site_name(url):
 
 
 def choose_llm(name):
-    match name:
-        case "ChatOpenAI":
-            return ChatOpenAI(temperature=0.2)
-        case "ChatGooglePalm":
-            return ChatGooglePalm(temperature=0.8)
-        case "HuggingFaceHub":
-            return HuggingFaceHub(
+    if name == "ChatOpenAI":
+        return ChatOpenAI(temperature=0.2)
+    if name == "ChatGooglePalm":
+        return ChatGooglePalm(temperature=0.8)
+    if name == "HuggingFaceHub":
+        return HuggingFaceHub(
                 repo_id=repo_id, model_kwargs={"temperature": 0.1, "max_length": 256}
             )
 def choose_embeddings(name):
-    match name:
-        case "OpenAIEmbeddings":
-            return OpenAIEmbeddings()
-        case "SentenceTransformerEmbeddings":
-            return SentenceTransformerEmbeddings(model_name='all-MiniLM-L6-v2')
-        case "HuggingFaceEmbeddings":
-            return HuggingFaceEmbeddings()
+    if name ==  "OpenAIEmbeddings":
+        return OpenAIEmbeddings()
+    if name ==  "SentenceTransformerEmbeddings":
+        return SentenceTransformerEmbeddings(model_name='all-MiniLM-L6-v2')
+    if name == "HuggingFaceEmbeddings":
+        return HuggingFaceEmbeddings()
 
 
 def starter_code(base_url):
