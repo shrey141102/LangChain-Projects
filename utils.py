@@ -20,7 +20,7 @@ from langchain.memory import ConversationBufferMemory, ConversationBufferWindowM
 from langchain.text_splitter import TokenTextSplitter, CharacterTextSplitter, RecursiveCharacterTextSplitter
 from langchain.vectorstores.chroma import Chroma
 from langchain.vectorstores.faiss import FAISS
-from apikey import OPENAI_API, HUGGINGFACE_API, GOOGLE_PALM_API_KEY
+#from apikey import OPENAI_API, HUGGINGFACE_API, GOOGLE_PALM_API_KEY
 from langchain.prompts import PromptTemplate, SystemMessagePromptTemplate, MessagesPlaceholder, \
     HumanMessagePromptTemplate, ChatPromptTemplate
 
