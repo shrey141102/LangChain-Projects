@@ -1,6 +1,16 @@
 from utils import  memory_query, starter_code, choose_llm, choose_embeddings
 import os
 import streamlit as st
+import subprocess
+
+command = "playwright install"
+
+try:
+    subprocess.run(command, shell=True, check=True)
+    print("Command executed successfully.")
+except subprocess.CalledProcessError as e:
+    print(f"Error during command execution: {e}")
+
 
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'  # or 'false' as needed
 
