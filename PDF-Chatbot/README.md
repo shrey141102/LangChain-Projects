@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the PDF ChatBot project! This application allows you to interact with a language model-powered chatbot specifically designed for processing PDF files. The deployed application can be found [here](https://your-pdf-chatbot-app-url).
+Welcome to the PDF ChatBot project! This application allows you to interact with a language model-powered chatbot specifically designed for processing PDF files. The deployed application can be found [here](https://pdf-chatbot-langchain1.streamlit.app/).
 
 ## Project Structure
 
